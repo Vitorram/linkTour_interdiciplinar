@@ -1,4 +1,4 @@
-package model.adm;
+package model.linkTour;
 
 
 public class Adm {

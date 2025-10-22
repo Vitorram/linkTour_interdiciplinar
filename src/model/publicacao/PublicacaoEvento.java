@@ -1,12 +1,12 @@
-package model.publi;
+package model.publicacao;
 
-public class Evento extends Publicacao {
+public class PublicacaoEvento extends Publicacao {
     private int idAlocacao;
     private int capacidade;
     private String dataInicio;
     private String dataFim;
 
-    public Evento(int idUsuario, String dataCriar, String titulo, String descricao,
+    public PublicacaoEvento(int idUsuario, String dataCriar, String titulo, String descricao,
                   int idAlocacao, int capacidade, String dataInicio, String dataFim) {
         super(idUsuario, dataCriar, titulo, descricao);
         this.idAlocacao = idAlocacao;

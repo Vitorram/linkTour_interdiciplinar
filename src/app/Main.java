@@ -1,6 +1,6 @@
 package app;
 
-import model.user.UsuarioComum;
+import model.usuarios.UsuarioComum;
 
 public class Main {
     public static void main(String[] args) {

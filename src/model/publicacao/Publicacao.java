@@ -1,4 +1,4 @@
-package model.publi;
+package model.publicacao;
 
 public class Publicacao{
     private int idUsuario;

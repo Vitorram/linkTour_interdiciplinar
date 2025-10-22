@@ -1,13 +1,13 @@
-package model.publi;
+package model.publicacao;
 
-public class Servico extends Publicacao {
+public class PublicacaoServico extends Publicacao {
     private String categoria;
     private double custo;
     private String disponibilidade;
     private int vendasMaxima;
     private String duracao;
 
-    public Servico(int idUsuario, String dataCriar, String titulo, String descricao,
+    public PublicacaoServico(int idUsuario, String dataCriar, String titulo, String descricao,
                    String categoria, double custo, String disponibilidade,
                    int vendasMaxima, String duracao) {
         super(idUsuario, dataCriar, titulo, descricao);
